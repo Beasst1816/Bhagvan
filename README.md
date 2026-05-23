@@ -29,7 +29,7 @@ I'm always interested in connecting with recruiters, collaborators, and fellow d
 ### Social Links & Professional Profiles
 
 - **GitHub**: [github.com/Beasst1816](https://github.com/Beasst1816)
-- **LinkedIn**: [linkedin.com/in/**bhagavan**](www.linkedin.com/in/raval-bhagvan-371677370)
+- **LinkedIn**: [linkedin.com](www.linkedin.com/in/raval-bhagvan-371677370)
 - **Portfolio**: [beasst1816.com](https://beasst1816.github.io/myportfolio/)
 - **Email**: bhaggubaba1@gmail.com
 - **Twitter**: [@beasst](https://x.com/beasst___?t=D9ES2MS_6Sfy5P1dV9nC_Q&s=09)
