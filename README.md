@@ -8,19 +8,19 @@ I'm a passionate developer dedicated to building innovative solutions and learni
 
 ## Featured Projects
 
-- **🔐 MyLocker: Digital Gatepass & Identity Ecosystem** - A robust, cross-platform digital gatepass and identity management system built with Flutter and Firebase. Features role-based access control, three-node architecture, atomic database transactions, and cost-optimized cloud infrastructure. Designed as a comprehensive BSc IT final year project.
+- **🔐 MyLocker: Digital Gatepass & Identity Ecosystem** - A robust, cross-platform digital gatepass and identity management system built with Flutter and Firebase. Features role-based access co[...]
 
-- **🎬 Vibe Match Movies** - A modern Flutter application that helps users discover films matching their current mood or "vibe." Built with a sleek, dark-themed interface providing an intuitive and immersive movie-browsing experience across iOS and Android platforms.
+- **🎬 Vibe Match Movies** - A modern Flutter application that helps users discover films matching their current mood or "vibe." Built with a sleek, dark-themed interface providing an intuitive [...]
 
-- **🎮 Virtual Gamepad: Zero-Latency Tri-Mode Controller** - A high-performance virtual gamepad application built with Flutter that emulates a physical Xbox controller on Windows PC. Features tri-mode connectivity (UDP over Wi-Fi, Bluetooth, USB), invisible swipe camera controls, zero-lag binary UDP protocol, and kernel-level PC emulation via C# .NET 8.
+- **🎮 Virtual Gamepad: Zero-Latency Tri-Mode Controller** - A high-performance virtual gamepad application built with Flutter that emulates a physical Xbox controller on Windows PC. Features tr[...]
 
 ## Skills & Technologies
 
-- **Languages**: [List your programming languages]
-- **Frontend**: [List frontend technologies/frameworks]
-- **Backend**: [List backend technologies/frameworks]
-- **Tools & Platforms**: [List tools, databases, platforms]
-- **Other**: [Any other relevant skills]
+- **Languages**: Dart, Java, Kotlin
+- **Frontend & Mobile**: Flutter
+- **Backend & APIs**: REST API Integration
+- **Tools & Platforms**: Git, GitHub, Odoo
+- **Other**: Local Data Persistence (SharedPreferences), QR Code Integration, UI/UX Cloning
 
 ## Get In Touch
 
@@ -41,7 +41,7 @@ Download my resume: [View Resume](./resume.pdf)
 ## Projects
 
 ### Project 1: 🔐 MyLocker: Digital Gatepass & Identity Ecosystem
-**Description**: A robust, cross-platform digital gatepass and identity management system designed as a comprehensive B.Tech final year project that replaces vulnerable manual entry logs and physical ID cards with high-speed, secure QR code validation and real-time cloud auditing.
+**Description**: A robust, cross-platform digital gatepass and identity management system designed as a comprehensive B.Tech final year project that replaces vulnerable manual entry logs and physi[...]
 
 **Key Features**:
 - Role-Based Access Control (RBAC) with strict security routing for Students, Guards, and Administrators
@@ -55,7 +55,7 @@ Download my resume: [View Resume](./resume.pdf)
 - Authentication: Firebase Auth
 
 ### Project 2: 🎬 Vibe Match Movies
-**Description**: A modern Flutter application designed to help users discover films that match their current mood or "vibe." Built with a sleek, dark-themed interface for an intuitive and immersive movie-browsing experience.
+**Description**: A modern Flutter application designed to help users discover films that match their current mood or "vibe." Built with a sleek, dark-themed interface for an intuitive and immersiv[...]
 
 **Key Features**:
 - Vibe-Based Discovery: Find movies tailored to specific mood or preference
@@ -65,7 +65,7 @@ Download my resume: [View Resume](./resume.pdf)
 **Tech Stack**: Flutter, Dart
 
 ### Project 3: 🎮 Virtual Gamepad: Zero-Latency Tri-Mode Controller
-**Description**: A high-performance virtual gamepad application that seamlessly emulates a physical Xbox controller on Windows PC with native-feeling full-screen swipe controls and zero-latency connectivity.
+**Description**: A high-performance virtual gamepad application that seamlessly emulates a physical Xbox controller on Windows PC with native-feeling full-screen swipe controls and zero-latency co[...]
 
 **Key Features**:
 - Tri-Mode Connectivity: UDP over Wi-Fi, Bluetooth, and USB (ADB port forwarding)
