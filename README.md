@@ -8,17 +8,17 @@ I'm a passionate developer dedicated to building innovative solutions and learni
 
 ## Featured Projects
 
-- **🔐 MyLocker: Digital Gatepass & Identity Ecosystem** - A robust, cross-platform digital gatepass and identity management system built with Flutter and Firebase. Features role-based access co[...]
+- **🔐 MyLocker: Digital Gatepass System** - A Flutter-based digital gatepass and locker management system for students, with role-based access control (Student & Guard), Firebase-backed authentication, and QR-code verification. A web-based admin dashboard is currently in development.
 
-- **🎬 Vibe Match Movies** - A modern Flutter application that helps users discover films matching their current mood or "vibe." Built with a sleek, dark-themed interface providing an intuitive [...]
+- **🎮 CTRLFORGE: Zero-Latency Virtual Gamepad** - A cross-platform Flutter application that turns your mobile device into a low-latency virtual gamepad, emulating an Xbox 360 / DualShock 4 controller on Windows PC over Wi-Fi, Bluetooth, or USB.
 
-- **🎮 Virtual Gamepad: Zero-Latency Tri-Mode Controller** - A high-performance virtual gamepad application built with Flutter that emulates a physical Xbox controller on Windows PC. Features tr[...]
+- **⏭️ Skip: Stealth Ad Skipper** - A native Android utility that works as a fully functional calculator on the surface, while an Accessibility Service silently skips YouTube Music ads in the background.
 
 ## Skills & Technologies
 
 - **Languages**: Dart, Java, Kotlin
 - **Frontend & Mobile**: Flutter
-- **Backend & APIs**: REST API Integration
+- **Backend & APIs**: REST API Integration, Firebase (Cloud Firestore, Firebase Auth)
 - **Tools & Platforms**: Git, GitHub, Odoo
 - **Other**: Local Data Persistence (SharedPreferences), QR Code Integration, UI/UX Cloning
 
@@ -30,8 +30,8 @@ I'm always interested in connecting with recruiters, collaborators, and fellow d
 
 - **GitHub**: [github.com/Beasst1816](https://github.com/Beasst1816)
 - **LinkedIn**: [linkedin.com](https://www.linkedin.com/in/raval-bhagvan-371677370)
-- **Portfolio**: [beasst1816.com](https://beasst1816.github.io/myportfolio/)
-- **Email**: bhaggubaba1@gmail.com
+- **Portfolio**: [beasst1816.github.io/myportfolio](https://beasst1816.github.io/myportfolio/)
+- **Email**: ravalbhagvan.dev@gmail.com
 - **Twitter**: [@beasst](https://x.com/beasst___?t=D9ES2MS_6Sfy5P1dV9nC_Q&s=09)
 
 ## Resume
@@ -40,48 +40,43 @@ Download my resume: [View Resume](./RESUME.md)
 
 ## Projects
 
-### Project 1: 🔐 MyLocker: Digital Gatepass & Identity Ecosystem
-**Description**: A robust, cross-platform digital gatepass and identity management system designed as a comprehensive B.Tech final year project that replaces vulnerable manual entry logs and physi[...]
+### Project 1: 🔐 MyLocker: Digital Gatepass System
+**Description**: A Flutter-based digital gatepass and locker management system built for students, replacing manual entry logs with a QR-code-based, role-based verification flow.
 
 **Key Features**:
-- Role-Based Access Control (RBAC) with strict security routing for Students, Guards, and Administrators
-- Three-Node Architecture: Student App (dynamic QR generation), Guard Scanner (entry validation), Admin Web Dashboard (real-time monitoring)
-- Atomic Database Transactions using Firestore WriteBatch operations for 100% data consistency
-- Cost-Optimized Cloud Infrastructure with server-side composite indexing
+- Role-Based Access Control (RBAC) with **Student** and **Guard** roles
+- Guard Scanner: guards scan a student's QR code to validate entry/exit
+- Atomic Database Transactions using Firestore `WriteBatch` operations for reliable record consistency
+- 🚧 Web-based Admin Dashboard for real-time monitoring — currently in development
 
-**Tech Stack**: 
-- Frontend: Flutter 3.19+ (Dart 3) - iOS, Android, Web
-- Backend: Firebase with Cloud Firestore (NoSQL)
-- Authentication: Firebase Auth
+**Tech Stack**:
+- Frontend: Flutter (Dart) — Android
+- Backend: Firebase (Cloud Firestore, Firebase Auth)
 
-### Project 2: 🎬 Vibe Match Movies
-**Description**: A modern Flutter application designed to help users discover films that match their current mood or "vibe." Built with a sleek, dark-themed interface for an intuitive and immersiv[...]
-
-**Key Features**:
-- Vibe-Based Discovery: Find movies tailored to specific mood or preference
-- Modern UI: Clean, dark-mode design optimized for a cinematic feel
-- Cross-Platform: Consistent experience on iOS and Android
-
-**Tech Stack**: Flutter, Dart
-
-### Project 3: 🎮 Virtual Gamepad: Zero-Latency Tri-Mode Controller
-**Description**: A high-performance virtual gamepad application that seamlessly emulates a physical Xbox controller on Windows PC with native-feeling full-screen swipe controls and zero-latency co[...]
+### Project 2: 🎮 CTRLFORGE: Zero-Latency Virtual Gamepad
+**Description**: A high-performance virtual gamepad application that emulates an Xbox 360 / DualShock 4 controller on a Windows PC, with a fully customizable HUD and multi-protocol connectivity.
 
 **Key Features**:
-- Tri-Mode Connectivity: UDP over Wi-Fi, Bluetooth, and USB (ADB port forwarding)
-- Invisible Swipe Camera: Full-screen right half swipe zone for camera controls with raw pointer event listeners
-- Zero-Lag Protocol: Custom 18-byte binary UDP packet structure eliminating JSON serialization overhead
-- Kernel-Level PC Emulation: C# .NET 8 host server with ViGEmBus emulation driver
+- Multi-Protocol Connectivity: Wi-Fi/TCP, Bluetooth (Classic SPP), and USB (ADB tunnel)
+- Customizable HUD: drag-and-drop layout editor, adjustable accent colors, pressure-sensitive triggers, clickable thumbsticks, and an 8-way D-Pad
+- Haptic feedback for tactile button responses
+- Lightweight Windows companion app (system tray, no console window) that handles virtual controller emulation
 
-**Tech Stack**: 
-- Mobile: Flutter, Riverpod (State Management), get_it (Dependency Injection)
-- PC Host: C# .NET 8, ViGEmBus emulation driver
-- Networking: Raw dart:io DatagramSockets (UDP) with binary serialization
+**Tech Stack**:
+- Mobile: Flutter (Dart), Provider (State Management)
+- PC Host: C#, ViGEm Client (Xbox 360 / DualShock 4 emulation), WinForms system tray
+- Networking: `dart:io` TCP/UDP sockets, `flutter_bluetooth_serial`, `usb_serial`
 
-## Open Source Contributions
+### Project 3: ⏭️ Skip: Stealth Ad Skipper
+**Description**: A native Android utility that's a fully working calculator on the surface, while silently skipping YouTube Music ads in the background using Android's Accessibility Services.
 
-- [Contribution 1](link-to-contribution)
-- [Contribution 2](link-to-contribution)
+**Key Features**:
+- Stealth frontend: a genuine, functional calculator UI
+- Automated backend: detects and taps "Skip Ad" buttons via the Accessibility API
+- Lightweight (~5MB), fully local — no network permissions or tracking
+- Distributed via GitHub Releases (not on the Play Store, due to its non-standard use of Accessibility Services)
+
+**Tech Stack**: Kotlin, Android Accessibility API
 
 ## Let's Connect! 💼
 
@@ -90,7 +85,3 @@ I'm open to:
 - Full-time positions
 - Collaborations on interesting projects
 - Mentoring and learning opportunities
-
----
-
-**Last Updated**: May 23, 2026
