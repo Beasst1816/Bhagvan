@@ -36,7 +36,7 @@ I'm always interested in connecting with recruiters, collaborators, and fellow d
 
 ## Resume
 
-Download my resume: [View Resume](./RESUME.md)
+Download my resume: [View Resume](https://beasst1816.github.io/myportfolio/resume.pdf)
 
 ## Projects
 
